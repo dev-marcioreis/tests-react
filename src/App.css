@@ -1,38 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --yellow-color: #F5C32C;
+  --orange-color: #E58F27;
+  --black-color: #242D49;
+  --bg-color: #FFF0E5;
+  --color: #360A3D;
+  --color1: #884138;
+  --color2: #C07883;
+  --first-color: #6025e5;
+  --white-color: #fff;
+  --gray-color: #788097;
+  --blueCard-color: #DDF8FE;
+  --purple-color: #eed2ff;
+  --orangeCard-color: #fca61f73;
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smallBoxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  overflow-x: hidden;
+  background: hsl(0, 0%, 0%);
+  color: var(--white-color);
+}
 .App {
-  text-align: center;
+  padding: .5rem 5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 11px 20px;
+  background: var(--first-color);
+}
+.button:hover {
+  background: var(--orange-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+  width: .4rem;
+  background: hsl(80, 4%, 15%);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--first-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--orange-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 480px) {
+  .App {
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
   }
 }

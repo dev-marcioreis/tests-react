@@ -1,0 +1,34 @@
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-block-start: 7rem;
+}
+.footer-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+    margin-block-start: 4rem;
+}
+.footer-icons {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-block-end: 2rem;
+    cursor: pointer;
+}
+.footer-icons>:hover {
+    color: var(--orange-color);
+}
+
+
+@media (max-width: 480px) {
+    .footer-icons {
+        font-size: 1.5rem;
+    }
+}

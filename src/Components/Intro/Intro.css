@@ -1,0 +1,131 @@
+.intro {
+    display: flex;
+    height: 77vh;
+    margin-block-start: 6rem;
+}
+.intro-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+}
+.intro-name {
+    display: flex;
+    flex-direction: column;
+}
+.intro-name>:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.intro-name>:nth-child(2) {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.intro-name>:nth-child(3) {
+    color: var(--first-color);
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-block-end: 10px;
+}
+.intro-name p {
+    font-size: 14px;
+    color: var(--gray-color);
+    margin: 7px 0;
+}
+.intro-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+    margin-block-start: 10px;
+}
+.intro-button {
+    width: 9rem;
+}
+.intro-social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-block-start: 3rem;
+    font-size: 30px;
+    cursor: pointer;
+}
+.intro-social-icons a {
+    color: var(--first-color);
+}
+.intro-social-icons a:hover {
+    color: var(--orange-color);
+}
+.intro-right {
+    position: relative;
+    flex: 1;
+}
+.intro-right>* {
+    position: absolute;
+    z-index: 1;
+}
+.intro-right>:nth-child(2) {
+    transform: rotate(15deg);
+    top: 25%;
+    left: 75%;
+    width: 10%;
+}
+.intro-right>:nth-child(3) {
+    transform: rotate(-25deg);
+    top: 65%;
+    left: -5%;
+    width: 12%;
+}
+.intro-right>:nth-child(4) {
+    transform: rotate(-5deg);
+    top: 72%;
+    left: 65%;
+    width: 12%;
+}
+.intro-right>:nth-child(5) {
+    transform: rotate(-5deg);
+    top: 10%;
+    left: 5%;
+    width: 10%;
+}
+.circle1 {
+    position: absolute;
+    top: -20%;
+    left: 70%;
+    background: hsl(289, 49%, 63%);
+    width: 32rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(170px);
+    z-index: -9;
+}
+.circle2 {
+    position: absolute;
+    top: 17rem;
+    left: -70rem;
+    background: hsl(190, 100%, 88%);
+    width: 32rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(170px);
+    z-index: -9;
+}
+
+
+@media (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+        margin-block-start: 1rem;
+        margin-block-end: 32rem;
+    }
+    .intro-right {
+        transform: scale(0.8);
+        left: -3rem;
+    }
+    .intro-right img {
+        width: 400px;
+    }
+    .intro-right>:not(:first-child) {
+        display: none;
+    }
+}
