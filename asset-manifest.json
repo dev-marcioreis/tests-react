@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/tests-react/static/css/main.cc959f9d.css",
+    "main.js": "/tests-react/static/js/main.44e7beee.js",
+    "static/media/space.png": "/tests-react/static/media/space.5f92b53c4067833b282a.png",
+    "static/media/profile.png": "/tests-react/static/media/profile.775c5f9c66e075bcf103.png",
+    "static/media/music.jpg": "/tests-react/static/media/music.8b9e3dfa24ba0e09340f.jpg",
+    "static/media/rest.jpg": "/tests-react/static/media/rest.3ff7d8c2bc0d263fbbcd.jpg",
+    "static/media/modern.jpg": "/tests-react/static/media/modern.1cb83bfc583ccd3062f4.jpg",
+    "static/media/sports.jpg": "/tests-react/static/media/sports.23250c9944f3cb97aa37.jpg",
+    "static/media/css.png": "/tests-react/static/media/css.82557827eacee60da8da.png",
+    "static/media/port.jpg": "/tests-react/static/media/port.9b1920ce60e818875377.jpg",
+    "static/media/ava.jpg": "/tests-react/static/media/ava.5c4b2d05dda5bdceebe1.jpg",
+    "static/media/curriculo.pdf": "/tests-react/static/media/curriculo.434830cf71581c5a512c.pdf",
+    "static/media/react.png": "/tests-react/static/media/react.4458987cc59156258cac.png",
+    "static/media/javascript.png": "/tests-react/static/media/javascript.38323140666580081f57.png",
+    "static/media/html.png": "/tests-react/static/media/html.c3acd6a9d41878125638.png",
+    "static/media/humble.png": "/tests-react/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heart.png": "/tests-react/static/media/heart.26b1b6ed5e0e44083b28.png",
+    "static/media/glasses.png": "/tests-react/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/tests-react/index.html",
+    "main.cc959f9d.css.map": "/tests-react/static/css/main.cc959f9d.css.map",
+    "main.44e7beee.js.map": "/tests-react/static/js/main.44e7beee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc959f9d.css",
+    "static/js/main.44e7beee.js"
+  ]
+}
