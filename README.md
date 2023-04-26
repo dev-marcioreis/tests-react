@@ -6,7 +6,7 @@ Um novo teste em React para projetos futuros.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 React + React router + React icons + React scroll + Framer motion
 
 ## ✒️ Autor
